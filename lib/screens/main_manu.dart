@@ -25,11 +25,17 @@ class MainMenu extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset(
-              'assets/tictactoe.png',
-              fit: BoxFit.contain,
-              width: width * 0.6,
-            ),
+            width < 600
+                ? Image.asset(
+                    'assets/tictactoe.png',
+                    fit: BoxFit.fitWidth,
+                    width: width * 0.6,
+                  )
+                : Image.asset(
+                    'assets/tictactoe.png',
+                    fit: BoxFit.fitWidth,
+                    width: width * 0.2,
+                  ),
             const SizedBox(height: 30),
             CustomButton(
               onTap: () => createRoom(context),
