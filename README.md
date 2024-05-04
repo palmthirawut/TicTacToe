@@ -1,16 +1,16 @@
-# tictactoe
+# Multiplayer TicTacToe Game
 
-A new Flutter project.
+A completely Responsive Multiplayer TicTacToe Game- Works on Android, iOS, Web & Desktop! 
 
-## Getting Started
+## Features
+1. Create/Join Room
+2. Play Realtime
+3. Display Points
+4. Round & Game Winner
+5. Responsive Glow Themed UI
+6. Cross Platform Game
 
-This project is a starting point for a Flutter application.
+## Tech Used
+**Server**: Node.js, Express, Socket.io, Mongoose, MongoDB
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Client**: Flutter, Provider
