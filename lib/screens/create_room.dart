@@ -53,6 +53,13 @@ class _CreateRoomState extends State<CreateRoom> {
             CustomButton(
                 onTap: () => _socketMethods.createRoom(_nameController.text),
                 text: 'Create'),
+            SizedBox(height: size.height * 0.01),
+            TextButton(
+                onPressed: () => Navigator.pop(context),
+                child: const Text(
+                  "Back",
+                  style: TextStyle(color: Colors.grey, fontSize: 14),
+                ))
           ],
         ),
       )),

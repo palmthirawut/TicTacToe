@@ -73,6 +73,13 @@ class _JoinRoomState extends State<JoinRoom> {
               ),
               text: 'Join',
             ),
+            SizedBox(height: size.height * 0.01),
+            TextButton(
+                onPressed: () => Navigator.pop(context),
+                child: const Text(
+                  "Back",
+                  style: TextStyle(color: Colors.grey, fontSize: 14),
+                ))
           ],
         ),
       )),
