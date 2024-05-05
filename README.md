@@ -2,6 +2,8 @@
 
 A completely Responsive Multiplayer TicTacToe Game- Works on Android, iOS, Web & Desktop! 
 
+![My Image](assets/game.png)
+
 ## Features
 1. Create/Join Room
 2. Play Realtime
